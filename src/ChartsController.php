@@ -1,6 +1,6 @@
 <?php
 
-namespace ConsoleTVs\Charts;
+namespace Digitalnomad91\Charts;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

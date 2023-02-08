@@ -1,5 +1,5 @@
 {
-    "name": "consoletvs/charts",
+    "name": "digitalnomad91/charts",
     "description": "The missing charting library on laravel, powered by Chartisan",
     "license": "MIT",
     "type": "library",
@@ -19,13 +19,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "ConsoleTVs\\Charts\\": "src/"
+            "Digitalnomad91\\Charts\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ConsoleTVs\\Charts\\ChartsServiceProvider"
+                "Digitalnomad91\\Charts\\ChartsServiceProvider"
             ]
         }
     }

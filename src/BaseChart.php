@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ConsoleTVs\Charts;
+namespace Digitalnomad91\Charts;
 
 use Chartisan\PHP\Chartisan;
 use Illuminate\Http\Request;

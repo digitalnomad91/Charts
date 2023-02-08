@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ConsoleTVs\Charts;
+namespace Digitalnomad91\Charts;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Foundation\Application;
@@ -66,7 +66,7 @@ class Registrar
                 ->prefix($globalPrefixArray->merge($prefixArray)->implode('/'))
                 ->middleware([...$globalMiddlewares, ...($instance->middlewares ?? [])])
                 ->name("{$globalRouteNamePrefix}.{$routeName}")
-                ->get($name, 'ConsoleTVs\Charts\ChartsController')
+                ->get($name, 'Digitalnomad91\Charts\ChartsController')
                 ->defaults('chart', $instance);
         }
     }
